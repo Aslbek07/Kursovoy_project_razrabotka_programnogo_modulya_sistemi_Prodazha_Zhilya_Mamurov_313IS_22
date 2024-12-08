@@ -1,0 +1,40 @@
+/*
+Ubuntu Style Sheet for QT Applications
+Author: Jaime A. Quiroga P.
+Company: GTRONICK
+Last updated: 01/10/2021 (dd/mm/yyyy), 15:18.
+Available at: https://github.com/GTRONICK/QSS/blob/master/Ubuntu.qss
+*/
+
+QMainWindow {
+	font-size: 12px;
+}
+
+QWidget {
+	font-size: 12px;
+}
+
+QTableView {
+   alternate-background-color: LightCyan;
+   background-color: White;
+}
+
+QTableView::item:selected {
+   color: MidnightBlue;
+   background-color: PaleGreen;
+}
+
+QTableView QTableCornerButton::section {
+   background-color: transparent;
+   border: 0px ;
+}
+
+QHeaderView {
+   background-color: White;
+   alternate-background-color: LightCyan;
+}
+
+QHeaderView::section {
+   background-color: transparent;
+   alternate-background-color: LightCyan;
+}
