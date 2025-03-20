@@ -21,7 +21,7 @@ import hashlib
 # Модуль os предоставляет множество функций для работы с операционной системой, причём их поведение, как правило, не зависит от ОС, поэтому программы остаются переносимыми. 
 import os
 
-# Создается новый класс ChangePasswordWindow котрый наследуется от класса QMainWindow. 
+# Создается новый класс ChangePasswordWindow который наследуется от класса QMainWindow.
 class ChangePasswordWindow(QMainWindow):
     def __init__(self, _id):
         try:
